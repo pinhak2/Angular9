@@ -26,6 +26,7 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatInputModule } from "@angular/material/input";
 
 import { HttpClientModule } from "@angular/common/http";
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +38,7 @@ import { HttpClientModule } from "@angular/common/http";
     RedDirective,
     ForDirective,
     ProductCreateComponent,
+    ProductReadComponent,
   ],
   imports: [
     BrowserModule,
